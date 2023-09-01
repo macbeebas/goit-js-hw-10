@@ -1,4 +1,4 @@
-https://macbeebas.github.io/goit-js-hw-09/
+https://macbeebas.github.io/goit-js-hw-10/
 
 # Parcel template
 
