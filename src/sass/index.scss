@@ -1,2 +1,44 @@
-@import './common';
-@import './example';
+// Loader
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #ff3d00;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// Project css
+
+body {
+  --WIDTH: 400px;
+  max-width: var(--WIDTH);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.breed-select {
+  margin: 10px;
+}
+
+.invisible {
+  display: none;
+}
+
+.cat-info__image {
+  box-shadow: 0px 0px 5px 2px rgb(0, 0, 0, 0.3);
+}
